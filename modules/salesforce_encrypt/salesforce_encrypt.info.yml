@@ -1,0 +1,14 @@
+name: Salesforce Encrypted Keys
+type: module
+description: Supplants Salesforce RestClient service to provide encrypted stateful data.
+package: Salesforce
+# core: 8.x
+dependencies:
+  - encrypt:encrypt
+  - salesforce:salesforce
+
+# Information added by Drupal.org packaging script on 2018-12-12
+version: '8.x-3.1+19-dev'
+core: '8.x'
+project: 'salesforce'
+datestamp: 1544637790

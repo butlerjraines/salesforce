@@ -1,0 +1,15 @@
+name: Salesforce Mapping
+type: module
+description: Map Drupal entities to Salesforce objects.
+package: Salesforce
+# core: 8.x
+configure: entity.salesforce_mapping.list
+dependencies:
+  - salesforce:salesforce
+  - dynamic_entity_reference:dynamic_entity_reference (2.x)
+
+# Information added by Drupal.org packaging script on 2018-12-12
+version: '8.x-3.1+19-dev'
+core: '8.x'
+project: 'salesforce'
+datestamp: 1544637790

@@ -1,0 +1,13 @@
+name: Salesforce Logger
+type: module
+description: Consolidated logging for Salesforce Log events.
+# core: 8.x
+package: Salesforce
+dependencies:
+  - salesforce:salesforce
+
+# Information added by Drupal.org packaging script on 2018-12-12
+version: '8.x-3.1+19-dev'
+core: '8.x'
+project: 'salesforce'
+datestamp: 1544637790
